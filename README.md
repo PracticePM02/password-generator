@@ -20,7 +20,7 @@
 |-|-|
 |`generator.py`|логика генерации и оценки надёжности|
 |`app.py`|графический интерфейс|
-|`tests/test\_generator.py`|модульные тесты|
+|`tests/test\\\_generator.py`|модульные тесты|
 
 ## Установка
 
@@ -57,8 +57,8 @@ python -m unittest discover tests
 
 Основные функции модуля `generator.py`:
 
-* `generate\_password(length, use\_lower, use\_upper, use\_digits, use\_symbols)` — возвращает строку-пароль;
-* `estimate\_strength(password)` — возвращает пару (энтропия в битах, текстовая оценка);
+* `generate\\\_password(length, use\\\_lower, use\\\_upper, use\\\_digits, use\\\_symbols)` — возвращает строку-пароль;
+* `estimate\\\_strength(password)` — возвращает пару (энтропия в битах, текстовая оценка);
 * `PasswordParamsError` — исключение при некорректных параметрах.
 
 ## Совместная работа (Contribution)
@@ -69,5 +69,5 @@ python -m unittest discover tests
 
 ## Авторы
 
-Автор: <Троян Антон>, группа <24ИСПп5-о9>. Лицензия.
+Автор: <Троян Антон>, группа <24ИСПп5-о9>.
 
